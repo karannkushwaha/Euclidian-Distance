@@ -1,0 +1,10 @@
+1. Would your solution work when m and n are large? How can you make it work? Can you give an approximate number for m and n?
+-> 	The method works well for handling thousands of datasets; but, for larger datasets, optimizations based on memory 	capacity, processing power, and algorithm performance are required.
+
+
+2. Can you make it work for m>>n.
+-->	Each point in set A can find its nearest neighbor in set B with efficiency because to the KD-tree data structure, 	which also makes the solution scalable over longer distances.
+
+
+3. Any other special situations that you can think of in which you could make it work?
+-->	Techniques like locality-sensitive hashing can be effectively used to find high-dimensional data. The Manhattan or 	Minkowski distances are examples of non-Euclidean distance measurements that can be applied. Big datasets are 	manageable with distributed computing frameworks like Dask and Apache Spark. Using sparse matrix representations and 	methods, sparse data can be optimized.
